@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { 
   Calculator, 
   Upload, 
@@ -10,7 +10,6 @@ import {
   Coins, 
   X, 
   Loader2,
-  ChevronRight,
   KeyRound,
   Calendar
 } from 'lucide-react';

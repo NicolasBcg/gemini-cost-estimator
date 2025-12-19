@@ -150,7 +150,7 @@ export default function App() {
 
     try {
       // UPDATED: Using Gemini 2.0 Flash-Lite Preview
-      const MODEL_NAME = "gemini-2.0-flash-lite-preview-02-05";
+      const MODEL_NAME = "gemini-2.5-flash-tts";
       const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${apiKey}`;
 
       const contentsPart = [];
